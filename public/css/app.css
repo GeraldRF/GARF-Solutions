@@ -1,6 +1,7 @@
 /* ENCAZADO CSS */
 .nav-bar {
   position: fixed;
+  z-index: 1;
   background: rgba(255, 255, 255, 0.9);
   width: 100%;
   padding: 0 10px 0 10px;
@@ -24,7 +25,7 @@
 }
 
 .encabezado > h1 {
-  margin-top: 30vh;
+  margin-top: 25vh;
   color: white;
   text-align: center;
 }
@@ -40,6 +41,10 @@
 
 .dropdown-backgroud > a {
   color: #004698;
+}
+
+.dropdown-backgroud > img {
+  max-width: 20px;
 }
 
 .encabezado-points {
@@ -62,8 +67,6 @@
 .encabezado-points > div > img {
   max-width: 200px;
 }
-
-/* MIS SERVICIOS */
 
 /* CSS PARA EL BOTON MENU HAMBURGER */
 
@@ -108,4 +111,138 @@
 .hamburger.open .hamburger-inner-2 {
   transform: translate3d(0, -5px, 0) rotate(-45deg);
   width: 40px;
+}
+
+/* MIS SERVICIOS */
+.mis-servicios-container {
+  margin-top: 100px;
+  background-color: white;
+  width: 100vw;
+  height: 1000px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mis-servicios-title {
+  color: #004698;
+  text-align: center;
+  margin-bottom: 150px;
+}
+
+.element {
+  opacity: 0%;
+  color: black;
+}
+.showElement {
+  opacity: 100%;
+  animation-name: show;
+  animation-duration: 0.5s;
+}
+@keyframes show {
+  0% {
+    transform: translateY(60px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.service-card {
+  width: 100%;
+  height: max-content;
+  padding-top: 100px;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.container-T-B, .container-T-W {
+  width: 50%;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media screen and (max-device-width: 700px){
+  .container-T-B, .container-T-W {
+    width: 500px;
+  }
+}
+
+.container-T-B {
+  color: white;
+  background-color: #004698;
+  margin-right: 20px;
+}
+
+.service-card-blue {
+  width: 100%;
+  height: max-content;
+  background-color: #004698;
+  padding-top: 100px;
+  display: flex;
+  justify-content: flex-end;
+  flex-wrap: wrap;
+}
+.container-T-W {
+  color: #004698;
+  background-color: white;
+  margin-left: 20px;
+}
+.intro-white,
+.intro-blue {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-items: center;
+  gap: 10px 70px;
+  padding-top: 50px;
+}
+.intro-white {
+  color: black;
+}
+.intro-white > div, .intro-blue > div{
+  width: 45%;
+  padding: 10px;
+}
+
+@media screen and (max-device-width: 1000px){
+  .intro-white > div, .intro-blue > div{
+    width: 100%;
+    padding: 10px;
+  }
+  .intro-white,
+.intro-blue {
+  gap: 10px 10px;
+}
+}
+
+.intro-blue {
+  color: white;
+}
+
+.ul-cap {list-style: none;}
+.ul-cap > li::before {content: "• "; color: #004698}
+h3 {
+  text-align: center;
+}
+
+.service-card::after {
+  display: inline-block;
+
+  content: »;
+
+  width: 0;
+
+  height: 0;
+
+  border-style: solid;
+
+  border-width: 6px 0 6px 10px;
+
+  border-color: transparent transparent transparent #007bff;
+
+  margin-right: 10px;
 }
