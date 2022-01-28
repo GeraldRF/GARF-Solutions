@@ -1,0 +1,111 @@
+/* ENCAZADO CSS */
+.nav-bar {
+  position: fixed;
+  background: rgba(255, 255, 255, 0.9);
+  width: 100%;
+  padding: 0 10px 0 10px;
+}
+
+.encabezado {
+  background-image: url("../images/encabezado/img-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  min-height: 100vh;
+  height: max-content;
+
+  display: flex;
+  flex-direction: column;
+  gap: 130px;
+
+  align-items: center;
+
+  text-shadow: 2px 2px black;
+}
+
+.encabezado > h1 {
+  margin-top: 30vh;
+  color: white;
+  text-align: center;
+}
+
+.nav-link-size {
+  font-size: large;
+  color: #004698;
+}
+
+.dropdown-backgroud {
+  background-color: white;
+}
+
+.dropdown-backgroud > a {
+  color: #004698;
+}
+
+.encabezado-points {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px 100px;
+  align-items: center;
+}
+
+.encabezado-points > div {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  color: white;
+}
+
+.encabezado-points > div > img {
+  max-width: 200px;
+}
+
+/* MIS SERVICIOS */
+
+/* CSS PARA EL BOTON MENU HAMBURGER */
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 30px;
+  max-width: 50px;
+}
+
+.hamburger-inner-0,
+.hamburger-inner-1,
+.hamburger-inner-2 {
+  background-color: #004698;
+  position: static;
+  width: 40px;
+  height: 4px;
+  border-radius: 5px;
+  content: "";
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+  transition-property: transform, opacity, display;
+}
+
+.hamburger-inner-1 {
+  width: 35px;
+}
+
+.hamburger-inner-2 {
+  width: 30px;
+}
+
+.hamburger.open .hamburger-inner-0 {
+  transform: translate3d(0, 5px, 0) rotate(45deg);
+}
+
+.hamburger.open .hamburger-inner-1 {
+  display: none;
+}
+
+.hamburger.open .hamburger-inner-2 {
+  transform: translate3d(0, -5px, 0) rotate(-45deg);
+  width: 40px;
+}
