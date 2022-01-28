@@ -1,0 +1,115 @@
+.mis-servicios-container {
+    margin-top: 100px;
+    background-color: white;
+    width: 100vw;
+    height: 1000px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .mis-servicios-title {
+    color: #004698;
+    text-align: center;
+    margin-bottom: 150px;
+  }
+  
+  .service-card {
+    width: 100%;
+    height: max-content;
+    padding-top: 100px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .container-T-B, .container-T-W {
+    width: 50%;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  @media screen and (max-device-width: 700px){
+    .container-T-B, .container-T-W {
+      width: 500px;
+    }
+  }
+  
+  .container-T-B {
+    color: white;
+    background-color: #004698;
+    margin-right: 20px;
+  }
+  
+  .service-card-blue {
+    width: 100%;
+    height: max-content;
+    background-color: #004698;
+    padding-top: 100px;
+    display: flex;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+  }
+  .container-T-W {
+    color: #004698;
+    background-color: white;
+    margin-left: 20px;
+  }
+  .intro-white,
+  .intro-blue {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    justify-items: center;
+    gap: 10px 70px;
+    padding-top: 50px;
+  }
+  .intro-white {
+    color: black;
+  }
+  .intro-white > h4, .intro-blue  >h4{
+    width: 45%;
+    padding: 10px;
+  }
+  
+  @media screen and (max-device-width: 1000px){
+    .intro-white > h4, .intro-blue > h4{
+      width: 100%;
+      padding: 10px;
+    }
+    .intro-white,
+  .intro-blue {
+    gap: 10px 10px;
+  }
+  }
+  
+  .intro-blue {
+    color: white;
+  }
+  
+  .ul-cap {list-style: none;}
+  .ul-cap > li::before {content: "• "; color: #004698}
+  h3 {
+    text-align: center;
+  }
+  
+  .service-card::after {
+    display: inline-block;
+  
+    content: »;
+  
+    width: 0;
+  
+    height: 0;
+  
+    border-style: solid;
+  
+    border-width: 6px 0 6px 10px;
+  
+    border-color: transparent transparent transparent #007bff;
+  
+    margin-right: 10px;
+  }
+  

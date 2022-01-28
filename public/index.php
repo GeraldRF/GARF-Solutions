@@ -8,7 +8,7 @@
     <title>Inicio | GARF-Solutions</title>
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
-    <link rel="stylesheet" href="../css/app.css">
+    <link rel="stylesheet" href="css/app.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
 
 </head>
@@ -17,7 +17,7 @@
 
 
     <nav class="navbar navbar-expand-sm nav-bar">
-        <a class="navbar-brand" href="#"><img src="../images/encabezado/Logo.svg" alt=""></a>
+        <a class="navbar-brand" href="#"><img src="images/encabezado/Logo.svg" alt=""></a>
 
         <div class="hamburger navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" style="border: none; align-items: self-end;">
             <div class="hamburger-inner-0"></div>
@@ -30,12 +30,12 @@
                 <li class="nav-item dropdown">
                     <a class="nav-link dropdown-toggle nav-link-size" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mis servicios</a>
                     <div class="dropdown-menu dropdown-backgroud">
-                        <a class="dropdown-item" href="#programacion"><img src="../images/encabezado/mis-servicios-icons/code-solid.svg"></img> Programación</a>
-                        <a class="dropdown-item" href="#configuracion-hosting"><img src="../images/encabezado/mis-servicios-icons/hosting-conf.svg"> Configuración de Hosting y más</a>
-                        <a class="dropdown-item" href="#instalacion-software"><img src="../images/encabezado/mis-servicios-icons/software-install.svg"> Instalación de Software</a>
-                        <a class="dropdown-item" href="#mantenimiento-equipos"><img src="../images/encabezado/mis-servicios-icons/pc-maintainer.svg"> Mantenimiento de Equipos</a>
-                        <a class="dropdown-item" href="#asesoria-tecnologia"><img src="../images/encabezado/mis-servicios-icons/tech-asesor.svg"> Asesoria en Tecnologia</a>
-                        <a class="dropdown-item" href="#instalacion-camaras"><img src="../images/encabezado/mis-servicios-icons/cctv-installer.svg"> Instalación de Camaras</a>
+                        <a class="dropdown-item" href="#programacion"><img src="images/encabezado/mis-servicios-icons/code-solid.svg"></img> Programación</a>
+                        <a class="dropdown-item" href="#configuracion-hosting"><img src="images/encabezado/mis-servicios-icons/hosting-conf.svg"> Configuración de Hosting y más</a>
+                        <a class="dropdown-item" href="#instalacion-software"><img src="images/encabezado/mis-servicios-icons/software-install.svg"> Instalación de Software</a>
+                        <a class="dropdown-item" href="#mantenimiento-equipos"><img src="images/encabezado/mis-servicios-icons/pc-maintainer.svg"> Mantenimiento de Equipos</a>
+                        <a class="dropdown-item" href="#asesoria-tecnologia"><img src="images/encabezado/mis-servicios-icons/tech-asesor.svg"> Asesoria en Tecnologia</a>
+                        <a class="dropdown-item" href="#instalacion-camaras"><img src="images/encabezado/mis-servicios-icons/cctv-installer.svg"> Instalación de Camaras</a>
                     </div>
                 </li>
                 <li class="nav-item">
@@ -49,16 +49,16 @@
         <h1>¡ Las mejores soluciones tecnologicas !</h1>
         <div class="encabezado-points">
             <div>
-                <img src="../images/encabezado/pantalla.svg" alt="">
+                <img src="images/encabezado/pantalla.svg" alt="">
                 <h4>Soluciones de TI</h4>
             </div>
-            <div><img src="../images/encabezado/audifonos.svg" alt="">
+            <div><img src="images/encabezado/audifonos.svg" alt="">
                 <h4>Excelente atencion al cliente</h4>
             </div>
-            <div><img src="../images/encabezado/nube.svg" alt="">
+            <div><img src="images/encabezado/nube.svg" alt="">
                 <h4>Ideas inovadoras</h4>
             </div>
-            <div><img src="../images/encabezado/dinero.svg" alt="">
+            <div><img src="images/encabezado/dinero.svg" alt="">
                 <h4>Precios accesibles</h4>
             </div>
         </div>
@@ -79,7 +79,7 @@
                 </div>
             </div>
             <div class="intro-white element">
-                <div style="display: flex; justify-content: center;">
+                
                     <h4>Siempre busco la adapcion a las necesitades del cliente, encontrando las mejores y
                         más creativas soluciones a los problemas.
                         Para mi no hay mas satisfaccion que ver a un cliente feliz con mi trabajo.
@@ -87,10 +87,8 @@
                         Las <strong style="color:#84088E">ideas</strong> y <strong style="color:#008282">creatividad</strong> de los clientes son muy importantes,
                         por eso pongo de mi total esfuerzo para escuchar y comprender lo que desean.
                     </h4>
-                </div>
-                <div style="display: flex; justify-content: center; align-items: center;">
                     <img style="max-width: 99%;" src="images/mis-servicios/programacion/pc.svg">
-                </div>
+                
             </div>
             <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap:100px; margin-top:50px;">
                 <div>
