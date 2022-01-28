@@ -48,44 +48,19 @@
     <div class="encabezado">
         <h1>¡ Las mejores soluciones tecnologicas !</h1>
         <div>
-                <img src="../images/encabezado/pantalla.svg" alt="">
-                <h4>Soluciones de TI</h4>
-            </div>
-            <div><img src="../images/encabezado/audifonos.svg" alt="">
-                <h4>Excelente atencion al cliente</h4>
-            </div>
-            <div><img src="../images/encabezado/nube.svg" alt="">
-                <h4>Ideas inovadoras</h4>
-            </div>
-            <div><img src="../images/encabezado/dinero.svg" alt="">
-                <h4>Precios accesibles</h4>
-            </div>
+            <img src="../images/encabezado/pantalla.svg" alt="">
+            <h4>Soluciones de TI</h4>
+        </div>
+        <div><img src="../images/encabezado/audifonos.svg" alt="">
+            <h4>Excelente atencion al cliente</h4>
+        </div>
+        <div><img src="../images/encabezado/nube.svg" alt="">
+            <h4>Ideas inovadoras</h4>
+        </div>
+        <div><img src="../images/encabezado/dinero.svg" alt="">
+            <h4>Precios accesibles</h4>
         </div>
     </div>
-
-
-
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-    <script>
-        $('.hamburger').on('click', function() {
-            $('.hamburger').toggleClass('open');
-        });
-    </script>
-</body>
-
-</html>                <h4>Soluciones de TI</h4>
-            </div>
-            <div><img src="../images/encabezado/audifonos.svg" alt="">
-                <h4>Excelente atencion al cliente</h4>
-            </div>
-            <div><img src="../images/encabezado/nube.svg" alt="">
-                <h4>Ideas inovadoras</h4>
-            </div>
-            <div><img src="../images/encabezado/dinero.svg" alt="">
-                <h4>Precios accesibles</h4>
-            </div>
-        </div>
     </div>
 
 
