@@ -1,6 +1,16 @@
 @import "encabezado.css";
 @import "mis-servicios.css";
 
+.background-img {
+  background-image: url("../images/encabezado/img-background.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  width: 100vw;
+  min-height: 100vh;
+  z-index: -1;
+}
+
 /* Aparecer */
 .element {
   opacity: 0%;
@@ -9,7 +19,7 @@
 .showElement {
   opacity: 100%;
   animation-name: show;
-  animation-duration: 0.5s;
+  animation-duration: 0.9s;
 }
 @keyframes show {
   0% {
@@ -17,5 +27,43 @@
   }
   100% {
     transform: translateY(0);
+  }
+}
+
+/* Aparecer */
+.elementLeft {
+  opacity: 0%;
+  color: black;
+}
+.showElementLeft {
+  opacity: 100%;
+  animation-name: showLeft;
+  animation-duration: 0.9s;
+}
+@keyframes showLeft {
+  0% {
+    transform: translateX(-300px);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+/* Aparecer */
+.elementRight {
+  opacity: 0%;
+  color: black;
+}
+.showElementRight {
+  opacity: 100%;
+  animation-name: showRight;
+  animation-duration: 0.9s;
+}
+@keyframes showRight {
+  0% {
+    transform: translateX(300px);
+  }
+  100% {
+    transform: translateX(0);
   }
 }
