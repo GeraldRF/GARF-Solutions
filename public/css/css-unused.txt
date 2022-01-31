@@ -1,0 +1,54 @@
+/* 
+.service-card::after,
+.service-card-blue::after {
+  position: relative;
+
+  top: 70px;
+
+  width: 0;
+  height: 0;
+
+  content: " ";
+
+  border-style: solid;
+
+  border-top-width: 70px;
+  border-left-width: 50vw;
+  border-right-width: 50vw;
+  border-bottom-width: 0;
+}
+.service-card::after {
+  border-color: #ffffff transparent transparent transparent;
+}
+.service-card-blue::after {
+  border-color: #004698 transparent transparent transparent;
+} */
+/* .service-card::after,
+.service-card-blue::after {
+  position: relative;
+
+  top: 25px;
+  left: 0px;
+
+  width: 0;
+  height: 0;
+
+  content: " ";
+
+  border-style: solid;
+
+  border-top-width: 30px;
+  border-left-width: 50vw;
+  border-right-width: 50vw;
+
+  /* border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  
+transform: rotate(45deg);border-bottom-left-radius: 30px;
+border-bottom-right-radius: 30px; 
+box-shadow: 0 3px 3px rgb(21, 21, 21);}.service-card::after {
+  border-color: #ffffff;
+}
+.service-card-blue::after {
+  border-color: #004698;
+}  */

@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: cover;
   position: fixed;
-  width: 100vw;
+  width: 100%;
   min-height: 100vh;
   z-index: -1;
 }
