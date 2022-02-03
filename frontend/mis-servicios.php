@@ -203,7 +203,7 @@
                  Ademas si no cuentas con camaras y no sabes cuales comprar o que DVR, NVR y disco duro comprar te ayudo para que puedas adquirir los mejores dispositivos, siempre teniendo en cuenta tus preferencias o necesidades.
              </h4>
          </div>
-         <div style="display: flex; gap:10px; flex-direction: column; margin-top: 20px; align-items: center; height: max-content;">
+         <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap:20px; margin-top:10px;">
              <h4 class="h5-green">Tipos de conexiones</h4>
              <div class="camaras-card">
                  <div class="camaras-card-title">
@@ -240,7 +240,7 @@
 
              </div>
          </div>
-         <div style="display: flex; flex-direction: column; margin-top:40px; align-items: center;">
+         <div style="display: flex; flex-direction: column; margin-top:20px; align-items: center;">
              <h6 style="color:white;text-align: center;">¡ PROTEGE TU HOGAR FORMA SEGURA !</h6>
              <a class="btn btn-primary" style="background-color: #fff; color:#004698; min-width: 300px;">¡Contactame ahora!</a>
          </div>
