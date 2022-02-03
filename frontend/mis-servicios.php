@@ -12,7 +12,7 @@
          </div>
          <div class="intro-white element">
              <h4>
-                 <img src="images/mis-servicios/programacion/pc.svg" loading="lazy" />Siempre busco la adapcion a las necesitades del cliente, encontrando las mejores y
+                 <img src="images/mis-servicios/programacion/pc.svg" />Siempre busco la adapcion a las necesitades del cliente, encontrando las mejores y
                  más creativas soluciones a los problemas.
                  Para mi no hay mas satisfaccion que ver a un cliente feliz con mi trabajo.<br>
                  Las <strong style="color:#84088E">ideas</strong> y <strong style="color:#008282">creatividad</strong> de los clientes son muy importantes,
@@ -22,7 +22,7 @@
          <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap:50px; margin-top:50px;">
              <div style="display: flex; flex-direction: column; align-items: center;">
                  <h4 style="color:#004698; text-align: center;">Principales herramientas de desarrollo</h4>
-                 <img src="images/mis-servicios/programacion/tools.png" loading="lazy" style="max-width: 90%;">
+                 <img src="images/mis-servicios/programacion/tools.png" style="max-width: 90%;">
              </div>
              <div style="display: flex; flex-direction: column; align-items: center;">
                  <h4 style="color:#004698">Capacidades</h4>
@@ -50,7 +50,7 @@
              </div>
          </div>
          <div class="intro-blue element">
-             <h4><img src="images/mis-servicios/hosting/hosting.svg" loading="lazy">
+             <h4><img src="images/mis-servicios/hosting/hosting.svg">
                  Para muchas personas a veces es un poco tedioso y costoso encontrar
                  un sitio donde hospedar una pagina web o para crear algun tipo de servidor dedicado
                  a algun servicio, como bases de datos por ejemplo.
@@ -92,7 +92,7 @@
              </div>
          </div>
          <div class="intro-white element">
-             <h4><img class="img-intro" src="images/mis-servicios/instalacion-software/paquete.svg" loading="lazy">Muchas personas desconocen de como obtener o instalar un programa, aplicacion o sistema operativo en sus dispositivos
+             <h4><img class="img-intro" src="images/mis-servicios/instalacion-software/paquete.svg">Muchas personas desconocen de como obtener o instalar un programa, aplicacion o sistema operativo en sus dispositivos
                  <strong style="color:#004698">¡No batalles mas!</strong> yo me encargo de instalar ese software que tanto estas deseando en tu dispositivo, ya sea portatil,
                  de escritorio o en tu dispositivo movil.
                  <br>
@@ -105,12 +105,12 @@
          <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap:50px; margin-top:50px;">
              <div style="display: flex; flex-direction: column; align-items: center;">
                  <h4 style="color:#004698; text-align: center;">Instalación de programas como</h4>
-                 <img src="images/mis-servicios/instalacion-software/programas.svg" loading="lazy" style="max-width: 90%;">
+                 <img src="images/mis-servicios/instalacion-software/programas.svg" style="max-width: 90%;">
                  <h6 style="color: red;">(Y más)</h6>
              </div>
              <div style="display: flex; flex-direction: column; align-items: center;">
                  <h4 style="color:#004698; text-align: center;">Instalación de sistemas operativos</h4>
-                 <img src="images/mis-servicios/instalacion-software/sos.svg" loading="lazy" style="max-width: 90%;">
+                 <img src="images/mis-servicios/instalacion-software/sos.svg" style="max-width: 90%;">
                  <h6 style="color: red;">(Todas las versiones y distros)</h6>
              </div>
          </div>
@@ -128,18 +128,18 @@
          </div>
          <div class="intro-blue element">
              <h4>
-                 <img src="images/mis-servicios/mantenimiento-equipos/pc.svg" loading="lazy">Me encargo de hacer que tu maquina tenga una vida duradera con diferentes metodos de aceleracion y matenimiento de
+                 <img src="images/mis-servicios/mantenimiento-equipos/pc.svg">Me encargo de hacer que tu maquina tenga una vida duradera con diferentes metodos de aceleracion y matenimiento de
                  equipos, para que su dispositivo corra fluidamente y detener esos dolores de cabeza producidos por un dispositivo lento.
                  <br>Ademas me encargo de darle mantenimiento preventivo y cambio de componentes
                  para que mis clientes puedan alargar la vida de sus computadoras o laptops.
              </h4>
          </div>
          <div style="display: flex; flex-direction: column; align-items: center; margin-top:30px">
-             <img src="images/mis-servicios/mantenimiento-equipos/componentes.svg" loading="lazy" style="max-width: 97%;">
+             <img src="images/mis-servicios/mantenimiento-equipos/componentes.svg" style="max-width: 97%;">
          </div>
          <div style="display: flex; flex-direction: column; align-items: center; gap:10px; margin-top:40px; color:white">
              <h4>Pickup & Delivery</h4>
-             <img src="images/mis-servicios/mantenimiento-equipos/moto.svg" style="max-width: 190px;" loading="lazy">
+             <img src="images/mis-servicios/mantenimiento-equipos/moto.svg" style="max-width: 190px;">
              <h6 style="width: 190px; text-align: center;">Recojo y entrego el equipo en sus manos</h6>
          </div>
          <div style="display: flex; flex-direction: column; margin-top: 100px; margin-bottom:0; align-items: center;">
@@ -156,7 +156,7 @@
          </div>
          <div class="intro-white element">
              <h4>
-                 <img src="images/mis-servicios/asesoria/asesor.svg" loading="lazy">Se que la mayoria de veces es dificil decidirse por ciertas cosas que siempre terminas
+                 <img src="images/mis-servicios/asesoria/asesor.svg">Se que la mayoria de veces es dificil decidirse por ciertas cosas que siempre terminas
                  pidiendo un consejo a un tercero para poder tomar la decision,
                  <strong style="color:#004698">en ambitos de tecnologia para eso estoy yo.</strong>
                  <br>
@@ -170,15 +170,15 @@
                  <div style="display: flex; flex-direction: row; flex-wrap: wrap; justify-content: center; gap:20px">
                      <div class="div-azul">
                          <h6>Siempre pensando en el cliente</h6>
-                         <img src="images/mis-servicios/asesoria/bombillo.svg" loading="lazy">
+                         <img src="images/mis-servicios/asesoria/bombillo.svg">
                      </div>
                      <div class="div-azul">
                          <h6>Buscando siempre la mejor calidad</h6>
-                         <img src="images/mis-servicios/asesoria/medalla.svg" loading="lazy">
+                         <img src="images/mis-servicios/asesoria/medalla.svg">
                      </div>
                      <div class="div-azul">
                          <h6>Que las opciones sobren y no que falten</h6>
-                         <img src="images/mis-servicios/asesoria/lista.svg" loading="lazy">
+                         <img src="images/mis-servicios/asesoria/lista.svg">
 
                      </div>
                  </div>
@@ -198,7 +198,7 @@
              </div>
          </div>
          <div class="intro-blue element">
-             <h4><img class="img-intro" src="images/mis-servicios/instalacion-camaras/camara.svg" loading="lazy">Te ayudo con la instalacion de tus camaras de seguridad ya sean analogicas o IP, creando las mejores infraestructuras CCTV y de conexion a internet.
+             <h4><img class="img-intro" src="images/mis-servicios/instalacion-camaras/camara.svg">Te ayudo con la instalacion de tus camaras de seguridad ya sean analogicas o IP, creando las mejores infraestructuras CCTV y de conexion a internet.
                  <br>
                  Ademas si no cuentas con camaras y no sabes cuales comprar o que DVR, NVR y disco duro comprar te ayudo para que puedas adquirir los mejores dispositivos, siempre teniendo en cuenta tus preferencias o necesidades.
              </h4>
@@ -217,11 +217,11 @@
                  <div class="camaras-card-div">
                      <div>
                          <h6>Conexion por cableado RJ45 (Ethernet)</h6>
-                         <img src="images/mis-servicios/instalacion-camaras/ethernet.svg" loading="lazy">
+                         <img src="images/mis-servicios/instalacion-camaras/ethernet.svg">
                      </div>
                      <div>
                          <h6>Conexiones inalambricas (WiFi)</h6>
-                         <img src="images/mis-servicios/instalacion-camaras/wireless.svg" loading="lazy">
+                         <img src="images/mis-servicios/instalacion-camaras/wireless.svg">
                      </div>
                  </div>
              </div>
@@ -234,7 +234,7 @@
                  <div class="camaras-card-div">
                      <div style="width:100%; flex-direction: row; gap:20px; justify-content: center;">
                          <h6>Conexiones por cable coaxial</h6>
-                         <img src="images/mis-servicios/instalacion-camaras/coaxial.svg" loading="lazy">
+                         <img src="images/mis-servicios/instalacion-camaras/coaxial.svg">
                      </div>
                  </div>
 
