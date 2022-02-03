@@ -5,6 +5,14 @@
   width: 100%;
   padding: 0 10px 0 10px;
   box-shadow: 0 0 4px black;
+  text-align: center;
+ 
+}
+.nav-bar > div > ul > li > a {
+  font-size: x-large;
+}
+.nav-bar > div > ul {
+   gap: 15px;
 }
 
 .encabezado {
@@ -15,14 +23,15 @@
   flex-direction: column;
   justify-content: space-evenly;
   gap: 40px;
-  background-color: #004798bb;
+  background-color: #00000052;
   box-shadow: 0 0 4px black;
   align-items: center;
+  font-family: serif;
 }
 
 .encabezado > h2 {
   font-size: calc(100% + 20px);
-  margin: 15vh 10px 0 10px;
+  margin: 5% 10px 0 10px;
   color: white;
   text-align: center;
   border: solid 1.5px transparent;
@@ -32,7 +41,6 @@
   box-shadow: 0px 0px 6px black;
   text-shadow: 0px 2px 2px black;
   background-color: rgba(65, 105, 225, 0.282);
-
 }
 @media screen and (max-width: 802px) {
   .encabezado > h2 {
@@ -43,6 +51,7 @@
 .nav-link-size {
   font-size: large;
   color: #004698;
+  font-family: serif;
 }
 
 .dropdown-backgroud {
@@ -51,6 +60,7 @@
 
 .dropdown-backgroud > a {
   color: #004698;
+  font-family: serif;
 }
 
 .dropdown-backgroud > img {
@@ -65,7 +75,6 @@
   gap: 35px 50px;
   align-items: center;
   margin-bottom: 10px;
-  
 }
 
 .encabezado-points > div {
@@ -78,17 +87,14 @@
   padding: 10px;
   width: 150px;
   height: 200px;
+  min-height: max-content;
   text-align: center;
   border-radius: 20px;
   box-shadow: 0px 0px 4px black;
 }
 
-.encabezado-points > div > h5 {
-  font-size: calc(100% - 0.1px);
-}
-
 .encabezado-points > div > img {
-  max-width: 200px;
+  max-width: 100px;
 }
 
 /* CSS PARA EL BOTON MENU HAMBURGER */

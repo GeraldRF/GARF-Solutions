@@ -32,15 +32,16 @@
   flex-wrap: wrap;
   border-radius: 20px;
   box-shadow: 0 0 6px black;
+  font-family: serif;
 }
 
 .service-card {
   padding: 30px 0 30px 0;
   justify-content: center;
-  background-color: white;
+  background-color: rgba(255, 255, 255, 0.844);
 }
 .service-card-blue {
-  background-color: #004698;
+  background-color: #004798c9;
   padding: 30px 0 30px 0;
   justify-content: flex-end;
 }
@@ -53,12 +54,12 @@
 
 .container-T-B,
 .container-T-W {
-  min-width: max-content;
   padding: 5px 10px 5px 10px;
   display: flex;
   justify-content: center;
   align-items: center;
   font-variant: petite-caps;
+  max-width: 100%;
 }
 .container-T-B > h2,
 .container-T-W > h2 {
@@ -66,7 +67,7 @@
 }
 
 .container-T-B {
-  color: white;
+  color: rgb(255, 255, 255);
   background-color: #004698;
   margin-right: 20px;
   box-shadow: 1px 1px 4px black;
@@ -74,56 +75,59 @@
 }
 
 .container-T-W {
-  color: #004698;
+  color: #004798;
   background-color: white;
   margin-left: 20px;
   box-shadow: -1px 1px 4px rgb(29, 29, 29);
   border-radius: 10px 0 0 10px;
 }
 
-.img-intro {
-  margin-top: 10px;
-  max-width: 90%;
-  grid-area: img;
-}
-
-#part1 {
-  text-align: left;
-  grid-area: part1;
-}
-#part2 {
-  text-align: left;
-  grid-area: part2;
-}
-
 .intro-white,
 .intro-blue {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 0.09fr;
+  display: flex;
   padding: 10px;
   margin-top: 20px;
   justify-items: center;
   align-items: center;
-  gap: 10px;
 }
 .intro-white {
   color: black;
-  grid-template-areas:
-  "part1 img"
-  "part2 part2";
 }
 .intro-white > h4,
 .intro-blue > h4 {
   font-size: 18px;
+  padding: 10px;
+}
+.intro-white > h4 {
+  border-left: solid 5px #004698;
+  background-color: #00479836;
+  border-bottom-right-radius: 5px;
+  border-top-right-radius: 5px;
+  box-shadow: 0px 0px 6px rgb(0, 0, 0);
+}
+.intro-blue > h4 {
+  border-right: solid 5px #ffffff;
+  background-color: #ffffff36;
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+  box-shadow: 0px 0px 6px rgb(0, 0, 0);
+  color: #ffffff;
+}
+
+.intro-blue > h4 > img {
+  margin: 10px 10px 0 10px;
+  max-width: 50%;
+  float: left;
+}
+.intro-white > h4 > img {
+  margin: 10px 10px 0 10px;
+  max-width: 50%;
+  float: right;
 }
 
 
 .intro-blue {
   color: white;
-  grid-template-areas:
-  "img part1"
-  "part2 part2";
 }
 
 .ul-cap {
@@ -135,6 +139,7 @@
 }
 h3 {
   text-align: center;
+  font-family: serif;
 }
 
 .arrow {
@@ -155,25 +160,101 @@ h3 {
 }
 
 .div-blanco {
- background-color: #ffffff;
- width: 200px;
- height: 200px;
+  background-color: #ffffff;
+  width: 200px;
+  height: 200px;
 
- padding: 10px;
+  padding: 10px;
 
- display: flex;
- flex-direction: column;
- align-items: center;
- justify-content: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 
- border-radius: 20px;
-
+  border-radius: 20px;
+  box-shadow: 0 0 6px black;
 }
 .div-blanco > h5 {
-  color:#FFA800 ;
+  color: #ffa800;
   text-align: center;
 }
 .div-blanco > h6 {
   color: #004698;
 }
 
+.div-azul {
+  background-color: #004698;
+  width: 200px;
+  height: 200px;
+
+  padding: 10px;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  border-radius: 20px;
+
+  box-shadow: 0 0 6px black;
+}
+.div-azul > h6 {
+  color: #ffffff;
+  text-align: center;
+}
+.div-azul > img {
+  text-align: center;
+}
+
+.h5-green {
+  color: lightgreen;
+  text-align: center;
+}
+.camaras-card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.camaras-card-title > div {
+  color: #004698;
+  background-color: rgb(11, 230, 11);
+  width: max-content;
+  height: 30px;
+  padding: 5px;
+  border-radius: 50px;
+  text-align: center;
+}
+
+.camaras-card {
+  display: flex;
+  flex-direction: column;
+  width: 90%;
+  height: max-content;
+  gap: 30px;
+  color: #004698;
+  background-color: #f6f6f6;
+  border-radius: 20px;
+  align-content: center;
+  text-align: center;
+
+  box-shadow: 0 0 6px black;
+}
+
+.camaras-card-div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+}
+
+.camaras-card-div > div {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  padding: 10px;
+}

@@ -21,6 +21,9 @@
                 </div>
             </li>
             <li class="nav-item">
+                <a href="#contactame" class="nav-link nav-link-size">Sobre mi</a>
+            </li>
+            <li class="nav-item">
                 <a href="#contactame" class="nav-link nav-link-size">Contactame</a>
             </li>
         </ul>
