@@ -6,8 +6,8 @@
             <h6>Este sitio web utiliza cookies para mejorar su experiencia la proxima vez que lo visites, si permanece en este sitio acepta las cookies.
             </h6>
             <!--
-        <a hreflang="es" href="/info/aviso-legal">Aviso Legal</a> y la
-    <a hreflang="es" href="/info/politica-de-privacidad">Política de Privacidad</a>. -->
+         <a hreflang="es" href="/info/aviso-legal">Aviso Legal</a> y la
+         <a hreflang="es" href="/info/politica-de-privacidad">Política de Privacidad</a>. -->
 
         </div>
         <button type="button" class="btn btn-sm btn-primary btn-b" onclick="acceptCookies()">

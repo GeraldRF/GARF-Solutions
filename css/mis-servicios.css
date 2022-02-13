@@ -2,7 +2,6 @@
   margin-top: 100px;
   background-color: transparent;
   width: 100%;
-  height: 1000px;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -45,11 +44,24 @@
   padding: 30px 0 30px 0;
   justify-content: flex-end;
 }
+
 @media screen and (max-width: 1000px) {
   .service-card,
   .service-card-blue {
     width: 95%;
   }
+}
+.title-information-w,
+.title-information-b {
+  border-bottom: solid 0.8px;
+  margin-bottom: 30px;
+  text-shadow: 0px 0px 1px black;
+}
+.title-information-w {
+  border-bottom-color: #004698;
+}
+.title-information-b {
+  border-bottom-color: white;
 }
 
 .container-T-B,
@@ -117,14 +129,15 @@
 .intro-blue > h4 > img {
   margin: 10px 10px 0 10px;
   max-width: 50%;
+  max-height: 250px;
   float: left;
 }
 .intro-white > h4 > img {
   margin: 10px 10px 0 10px;
   max-width: 50%;
+  max-height: 250px;
   float: right;
 }
-
 
 .intro-blue {
   color: white;
@@ -170,6 +183,7 @@ h3 {
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  text-align: center;
 
   border-radius: 20px;
   box-shadow: 0 0 6px black;
@@ -217,8 +231,9 @@ h3 {
   gap: 10px;
   margin-top: 10px;
 }
-.camaras-card-title > div {
-  color: #004698;
+
+.recomendado {
+  color: #000000;
   background-color: rgb(11, 230, 11);
   width: max-content;
   height: 30px;

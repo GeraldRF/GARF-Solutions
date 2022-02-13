@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-sm nav-bar">
+<nav id="main-navbar" class="navbar navbar-expand-sm nav-bar">
     <a class="navbar-brand" href="#"><img src="images/encabezado/Logo.svg" alt=""></a>
 
     <div class="hamburger navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsibleNavId" aria-controls="collapsibleNavId" aria-expanded="false" aria-label="Toggle navigation" style="border: none; align-items: self-end;">
@@ -19,9 +19,6 @@
                     <a class="dropdown-item" href="#asesoria-tecnologia"><img src="images/encabezado/mis-servicios-icons/tech-asesor.svg"> Asesoria en Tecnologia</a>
                     <a class="dropdown-item" href="#instalacion-camaras"><img src="images/encabezado/mis-servicios-icons/cctv-installer.svg"> Instalación de Camaras</a>
                 </div>
-            </li>
-            <li class="nav-item">
-                <a href="#contactame" class="nav-link nav-link-size">Sobre mi</a>
             </li>
             <li class="nav-item">
                 <a href="#contactame" class="nav-link nav-link-size">Contactame</a>
