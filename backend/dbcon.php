@@ -1,8 +1,9 @@
 <?php
 
-$servername = "localhost";
-$username = "root";
-$password ="";
+$servername = "localhost";//sql306.epizy.com
+$username = "root";//epiz_30918587
+$password ="";//arVYMKQ2BGGa8ft
+//DB = epiz_30918587_garf_solutions_db
 
 $conn = new mysqli($servername, $username, $password);
 

@@ -12,7 +12,7 @@
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle nav-link-size" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Mis servicios</a>
                 <div class="dropdown-menu dropdown-backgroud">
-                    <a class="dropdown-item" href="#programacion"><img src="images/encabezado/mis-servicios-icons/code-solid.svg"></img> Programación</a>
+                    <a class="dropdown-item" href="#programacion"><img src="images/encabezado/mis-servicios-icons/code-solid.svg"> Programación</a>
                     <a class="dropdown-item" href="#configuracion-hosting"><img src="images/encabezado/mis-servicios-icons/hosting-conf.svg"> Configuración de Hosting y más</a>
                     <a class="dropdown-item" href="#instalacion-software"><img src="images/encabezado/mis-servicios-icons/software-install.svg"> Instalación de Software</a>
                     <a class="dropdown-item" href="#mantenimiento-equipos"><img src="images/encabezado/mis-servicios-icons/pc-maintainer.svg"> Mantenimiento de Equipos</a>

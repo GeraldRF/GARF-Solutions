@@ -55,12 +55,13 @@
 }
 
 .dropdown-backgroud {
-  background-color: white;
+  background-color: white !important;
 }
 
 .dropdown-backgroud > a {
-  color: #004698;
+  color: #004698 !important;
   font-family: serif;
+  background-color: white !important;
 }
 
 .dropdown-backgroud > img {

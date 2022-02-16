@@ -40,7 +40,7 @@
         </div>
         <div style="display: flex; flex-direction: column; margin-top: 40px; margin-bottom:0; align-items: center;">
             <h6 style="text-align: center;">¡ IMPULSA TU NEGOCIO CON TU PROPIO SITIO WEB !</h6>
-            <a class="btn btn-primary" style="background-color: #004698; min-width: 300px;">¡Contactame ahora!</a>
+            <a href="#contactame" class="btn btn-primary" style="background-color: #004698; min-width: 300px;">¡Contactame ahora!</a>
         </div>
     </div>
 
@@ -81,7 +81,7 @@
         </div>
         <div style="display: flex; flex-direction: column; margin-top: 100px; margin-bottom:0; align-items: center;">
             <h6 style="color:white;text-align: center;">¡ TE AYUDO A PONER TU SITIO WEB EN PRODUCCIÓN !</h6>
-            <a class="btn btn-primary" style="background-color: #fff; color:#004698; min-width: 300px;">¡Contactame ahora!</a>
+            <a href="#contactame" class="btn btn-primary" style="background-color: #fff; color:#004698; min-width: 300px;">¡Contactame ahora!</a>
         </div>
     </div>
 
@@ -115,7 +115,7 @@
         </div>
         <div style="display: flex; flex-direction: column; margin-top: 40px; margin-bottom:0; align-items: center;">
             <h6 style="text-align: center;">¡ SOLICITA LA INSTALACION DE TU PROGRAMA O SISTEMA OPERATIVO !</h6>
-            <a class="btn btn-primary" style="background-color: #004698; min-width: 300px;">¡Contactame ahora!</a>
+            <a href="#contactame" class="btn btn-primary" style="background-color: #004698; min-width: 300px;">¡Contactame ahora!</a>
         </div>
     </div>
 
@@ -143,7 +143,7 @@
         </div>
         <div style="display: flex; flex-direction: column; margin-top: 100px; margin-bottom:0; align-items: center;">
             <h6 style="color:white;text-align: center;">¡ HAZ QUE LA VIDA DE TU DISPOSITIVO SE ALARGUE !</h6>
-            <a class="btn btn-primary" style="background-color: #fff; color:#004698; min-width: 300px;">¡Contactame ahora!</a>
+            <a href="#contactame" class="btn btn-primary" style="background-color: #fff; color:#004698; min-width: 300px;">¡Contactame ahora!</a>
         </div>
     </div>
 
@@ -184,7 +184,7 @@
         </div>
         <div style="display: flex; flex-direction: column; margin-top: 40px; margin-bottom:0; align-items: center;">
             <h6 style="text-align: center;">¡ OBTEN ESA ASESORIA PARA LO QUE BUSCAS !</h6>
-            <a class="btn btn-primary" style="background-color: #004698; min-width: 300px;">¡Contactame ahora!</a>
+            <a href="#contactame" class="btn btn-primary" style="background-color: #004698; min-width: 300px;">¡Contactame ahora!</a>
         </div>
 
     </div>
@@ -203,7 +203,7 @@
             </h4>
         </div>
         <div style="display: flex; flex-direction: column; align-items: center; justify-content: center; gap:20px; margin-top:10px;">
-            <h4 class="h5-green title-information-b">Tipos de conexiones</h4>
+            <h4 class="title-information-b" style="color: white;">Tipos de conexiones</h4>
             <div class="camaras-card">
                 <div class="camaras-card-title">
                     <strong>
@@ -240,7 +240,7 @@
         </div>
         <div style="display: flex; flex-direction: column; margin-top:20px; align-items: center;">
             <h6 style="color:white;text-align: center;">¡ PROTEGE TU HOGAR FORMA SEGURA !</h6>
-            <a class="btn btn-primary" style="background-color: #fff; color:#004698; min-width: 300px;">¡Contactame ahora!</a>
+            <a href="#contactame" class="btn btn-primary" style="background-color: #fff; color:#004698; min-width: 300px;">¡Contactame ahora!</a>
         </div>
     </div>
 
