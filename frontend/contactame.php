@@ -6,12 +6,22 @@
 <div class="main-div-contactame">
     <div class="contactame-container">
 
+        <div>
+            <p>Si tienes algun tipo de 
+                <strong style="color: blue;">duda</strong>
+                o quieres contarme sobre tu
+                 <strong style="color: blue;">proyecto</strong> 
+                 no dudes en dejarme un mensaje 
+                 <strong style="color: green;">sin ningun compromiso</strong>, 
+                 encantado te ayudare en los que gustes.</p>
+        </div>
+
         <form method="post" action="">
             <!--../backend/mensaje-interno.php -->
 
             <div>
                 <label for="nombre">Nombre <i style="color: red;">*</i> </label>
-                <input name="nombre" type="text" required>
+                <input id="nombre" name="nombre" type="text" required>
             </div>
 
             <div>
@@ -29,19 +39,9 @@
                 <textarea id="mensaje" name="mensaje" rows="5" required></textarea>
             </div>
 
-            <div>
-                <h4 style="color: #004698; text-align: center;">Enviar por:</h4>
-            </div>
 
-            <div>
-                <div class="medio-contacto">
-                    <a class="conbutton" id="whapp"><img src="/images/contactame/whapp.svg" alt="whatsapp" title="Whatsapp"></a>
-                    <a class="conbutton" id="correo"><img src="/images/contactame/correo.svg" alt="Correo electrónico" title="Correo electrónico"></a>
-                    <button id="interno" type="submit" class="conbutton" title="Mensaje interno"><img src="/images/contactame/inbox.svg" alt="Mensaje interno"></button>
-                    <p style="transform: rotate(-40deg) translateY(-70px) translateX(55px); color:white; background-color: red; padding:2px; text-align: center;">Temporalmente inactivo</p>
-                </div>
+            <button type="submit" class="btn btn-success">Enviar</button>
 
-            </div>
 
         </form>
     </div>

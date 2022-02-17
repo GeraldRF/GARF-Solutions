@@ -26,7 +26,6 @@
   background-color: #00000052;
   box-shadow: 0 0 4px black;
   align-items: center;
-  font-family: serif;
 }
 
 .encabezado > h2 {
@@ -51,7 +50,6 @@
 .nav-link-size {
   font-size: large;
   color: #004698;
-  font-family: serif;
 }
 
 .dropdown-backgroud {
@@ -60,7 +58,6 @@
 
 .dropdown-backgroud > a {
   color: #004698 !important;
-  font-family: serif;
   background-color: white !important;
 }
 

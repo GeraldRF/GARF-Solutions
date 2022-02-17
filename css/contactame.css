@@ -30,7 +30,6 @@
   display: flex;
   flex-direction: column;
   gap: 20px;
-  font-family: "Times New Roman", Times, serif;
 }
 .contactame-container > form > div {
   display: flex;
@@ -47,37 +46,17 @@
   font-size: large
 }
 
-#interno {
-  grid-area: interno;
+.btn-success {
+  font-size: large;
+  width: 50%;
+  align-self: flex-end;
 }
-#whapp {
-  grid-area: whapp;
-}
-#correo {
-  grid-area: correo;
-}
-.medio-contacto {
-  display: grid;
-  grid-template-rows: 1fr;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-areas:
-    "interno whapp correo";
-  gap: 10px;
-  align-items: center;
-  justify-items: center;
-  background-color: transparent;
-}
-.medio-contacto > .conbutton {
-  width: 80%;
+
+.btn-success > img{
+  width: 40px;
+  height: 40px;
   border: none;
   background-color: transparent;
-}
-.medio-contacto > button > img {
-  width: 100%;
-}
-.medio-contacto > a > img {
-  width: 90%;
-  cursor: pointer;
 }
 
 label {

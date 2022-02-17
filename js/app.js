@@ -2,35 +2,57 @@ $(".hamburger").on("click", function () {
   $(".hamburger").toggleClass("open");
 });
 
-$('#whapp').on('click',function() {
-  var url = "https://wa.me/50663707287?text=" + obtener_mensaje() + "&app_absent=0";
-  var win = window.open(url, '_blank');
-  // Cambiar el foco al nuevo tab (punto opcional)
-  win.focus();
-});
+function setMsg(id) {
 
-$('#correo').on('click', function(){
-  var url = 'mailto:gerald.rafo@gmail.com?subject=Solicitud de información&body='+ obtener_mensaje();
-  var win = window.open(url, '_blank');
-  win.focus();
-});
+  var msg =
+    obtener_hora()+"Gerald, espero te encuentres bien, tengo un caso de ";
 
-function setMsg(id){
+  switch (id) {
+    case "programacion": {
+      msg += '"programación"';
 
+      break;
+    }
+    case "configuracion-hosting": {
+      msg += '"configuración de hosting y más"';
 
-  
+      break;
+    }
+    case "instalacion-software": {
+      msg += '"instalación de software"';
+
+      break;
+    }
+    case "mantenimiento-equipos": {
+      msg += '"matenimiento de equipos"';
+
+      break;
+    }
+    case "asesoria-tecnologia": {
+      msg += '"asesoría tecnologica"';
+
+      break;
+    }
+    case "instalacion-camaras": {
+      msg += '"instalación de cámaras"';
+
+      break;
+    }
+  }
+
+  msg+=", el cual es el siguiente:";
+
+  $("#mensaje").val(msg);
 }
 
-function obtener_mensaje() {var hora = new Date().getHours();
+function obtener_hora() {
+  var hora = new Date().getHours();
   var mensaje = "";
 
-  if (hora > 3 && hora < 12)
-      mensaje = "Buenos dias ";
-  else if (hora >= 12 && hora < 18)
-      mensaje = "Buenas tardes "
-  else mensaje = "Buenas noches "
+  if (hora > 3 && hora < 12) mensaje = "Buenos dias ";
+  else if (hora >= 12 && hora < 18) mensaje = "Buenas tardes ";
+  else mensaje = "Buenas noches ";
 
-  mensaje += "Gerald, deseo obtener más información sobre sus servicios, por favor."
   return mensaje;
 }
 
