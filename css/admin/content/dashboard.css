@@ -1,0 +1,36 @@
+.dashboard-card {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 30px;
+}
+.item-card {
+  width: 200px;
+  height: 150px;
+  background-color: aqua;
+  padding: 20px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  box-shadow: -2px 2px 3px black;
+}
+
+p {
+  font-weight: bold;
+  font-size: x-large;
+}
+h5 {
+  font-size: larger;
+}
+
+.color-orange {
+  background: linear-gradient(to bottom, orange, rgba(245, 37, 9, 0.981));
+}
+.color-green {
+  background: linear-gradient(to bottom, green, rgb(29, 173, 154));
+}
+.color-purple {
+  background: linear-gradient(to bottom,purple, rgb(7, 36, 199));
+}

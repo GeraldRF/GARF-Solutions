@@ -1,3 +1,100 @@
-.nav-bar{
-    
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  gap: 20px;
+  background-color: #004698;
+  padding: 10px;
+  position: fixed;
+  overflow: auto;
+  height: 100%;
+}
+
+.nav-bar {
+  background-color: #004798;
+}
+
+#btn-menu {
+  display: none;
+  background-color: #004698;
+  width: 50px;
+  height: 100%;
+}
+
+@media screen and (max-width: 723px) {
+  .nav-bar {
+    width: max-content;
+    background-color: #004798;
+    display: none;
+  }
+  #btn-menu {
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.showNav-bar {
+  display: block;
+}
+
+.nav-link {
+  color: white !important;
+}
+.nav-link-active{
+  background-color: white !important;
+  color: #004698 !important;
+}
+
+/* CSS PARA EL BOTON MENU HAMBURGER */
+
+.hamburger {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  min-height: 30px;
+  max-width: 50px;
+  margin-top: 10px;
+}
+
+.hamburger-inner-0,
+.hamburger-inner-1,
+.hamburger-inner-2 {
+  background-color: white;
+  position: static;
+  width: 40px;
+  height: 4px;
+  border-radius: 5px;
+  content: "";
+  transition-timing-function: ease;
+  transition-duration: 0.2s;
+  transition-property: transform, opacity, display;
+}
+
+.hamburger-inner-1 {
+  width: 40px;
+}
+
+.hamburger-inner-2 {
+  width: 40px;
+}
+
+.hamburger.open .hamburger-inner-0 {
+  transform: translate3d(0, 5px, 0) rotate(45deg);
+}
+
+.hamburger.open .hamburger-inner-1 {
+  display: none;
+}
+
+.hamburger.open .hamburger-inner-2 {
+  transform: translate3d(0, -5px, 0) rotate(-45deg);
+  width: 40px;
+}
+
+.logo {
+  display: flex;
+  justify-content: center;
+  gap: 5px;
+  color: white;
+  border-bottom: solid 1px;
 }

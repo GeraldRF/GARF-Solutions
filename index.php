@@ -11,12 +11,13 @@ session_start();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Inicio | GARF-Solutions</title>
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css" integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/bootstrap-4.6.1-dist/css/bootstrap.min.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="shortcut icon" href="favicon.svg" type="image/x-icon">
-    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF" crossorigin="anonymous"></script>
-  
+    <script src="js/popper-base.min.js.map_2.4.4/cdnjs/popper-base.min.js.map"></script>
+    <script src="js/jquery-3.6.0.js"></script>
+    <script src="js/bootstrap-4.6.1-dist/js/bootstrap.bundle.min.js"></script>
+
 </head>
 
 <body>

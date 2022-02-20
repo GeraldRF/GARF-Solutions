@@ -1,9 +1,7 @@
 body {
-  display: flex;
   justify-content: center;
   background-color: #0047982f;
 }
-
 .login-card {
   width: 400px;
   height: 500px;

@@ -5,3 +5,6 @@ php_value date.timezone America/Costa_Rica
 RewriteEngine on
 
 RewriteRule ^admin$ /frontend/admin/index.php 
+RewriteRule ^admin/mensajes/todos$ /frontend/admin/index.php?e=all-msg 
+RewriteRule ^admin/mensajes/leidos$ /frontend/admin/index.php?e=readed-msg
+RewriteRule ^admin/mensajes/sin-leer$ /frontend/admin/index.php?e=unreaded-msg 

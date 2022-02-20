@@ -1,0 +1,46 @@
+.mensajes-container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+    gap: 20px;
+}
+
+.mensaje-card {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: 0px 0px 3px black;
+    padding: 10px;
+}
+
+.dato{
+    display: flex;
+    flex-direction: column;
+}
+.dato{
+    font-size: medium;
+}
+.nombre {
+    font-size: x-large;
+    color: #004798;
+}
+
+.titleof {
+font-size: larger;
+font-weight: bold;
+}
+
+.mensaje{
+border-left: 2px solid #004798;
+height: 100%;
+margin-left: 15px;
+padding: 10px;
+background-color: #00479825;
+width: 100%;
+}
+
+.datos_mensaje{
+    display: flex;
+}

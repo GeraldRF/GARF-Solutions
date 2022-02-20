@@ -1,6 +1,17 @@
 @import url("login.css");
 @import url("navbar.css");
+@import url("content/dashboard.css");
+@import url("content/mensajes.css");
 
 .admin-container {
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+  width: 99%;
+  height: 100vh;
+}
+
+.view-port {
+  margin-left: 33%;
 
 }
