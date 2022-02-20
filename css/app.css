@@ -1,6 +1,8 @@
 @import "encabezado.css";
 @import "mis-servicios.css";
 @import "contactame.css";
+@import "footer.css";
+
 
 .background-img {
   background-image: url("../images/encabezado/img-background.webp");

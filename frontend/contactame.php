@@ -7,31 +7,30 @@
     <div class="contactame-container">
 
         <div>
-            <p>Si tienes algun tipo de 
+            <p>Si tienes algún tipo de 
                 <strong style="color: blue;">duda</strong>
                 o quieres contarme sobre tu
                  <strong style="color: blue;">proyecto</strong> 
-                 no dudes en dejarme un mensaje 
-                 <strong style="color: green;">sin ningun compromiso</strong>, 
+                 no dudes en dejarme un mensaje, 
+                 <strong style="color: green;">sin ningún compromiso</strong>, 
                  encantado te ayudare en los que gustes.</p>
         </div>
 
-        <form method="post" action="">
-            <!--../backend/mensaje-interno.php -->
-
+        <form method="post" action="../backend/enviar_mensaje.php">
+    
             <div>
                 <label for="nombre">Nombre <i style="color: red;">*</i> </label>
                 <input id="nombre" name="nombre" type="text" required>
             </div>
 
             <div>
-                <label for="num_telefonico">Numero telefonico</label>
+                <label for="num_telefonico">Numero telefónico</label>
                 <input id="num_telefonico" name="num_telefonico" type="text">
             </div>
 
             <div>
-                <label for="email">Correo electronico <i style="color: red;">*</i> </label>
-                <input id="email" name="email" type="text" required>
+                <label for="email">Correo electrónico <i style="color: red;">*</i> </label>
+                <input id="email" name="email" type="email" required>
             </div>
 
             <div>

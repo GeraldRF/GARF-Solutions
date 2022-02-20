@@ -6,13 +6,12 @@
   padding: 0 10px 0 10px;
   box-shadow: 0 0 4px black;
   text-align: center;
- 
 }
 .nav-bar > div > ul > li > a {
   font-size: x-large;
 }
 .nav-bar > div > ul {
-   gap: 15px;
+  gap: 15px;
 }
 
 .encabezado {
@@ -138,4 +137,27 @@
 .hamburger.open .hamburger-inner-2 {
   transform: translate3d(0, -5px, 0) rotate(-45deg);
   width: 40px;
+}
+
+.hidden {
+  animation: hidden 1s forwards;
+}
+
+@keyframes hidden {
+  100% {
+    transform: translateY(-200px);
+  }
+}
+
+.showNav {
+  animation: showNav 0.5s;
+}
+
+@keyframes showNav {
+  0% {
+    transform: translateY(-100px);
+  }
+  100% {
+    transform: translateY(0px);
+  }
 }
