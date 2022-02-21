@@ -35,7 +35,7 @@ font-weight: bold;
 .mensaje{
 border-left: 2px solid #004798;
 height: 100%;
-margin-left: 15px;
+margin-left: 6px;
 padding: 10px;
 background-color: #00479825;
 width: 100%;
@@ -43,4 +43,5 @@ width: 100%;
 
 .datos_mensaje{
     display: flex;
+    flex-wrap: wrap;
 }

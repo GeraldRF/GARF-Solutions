@@ -1,5 +1,3 @@
-ALTER USER 'root'@'localhost' IDENTIFIED BY 'MyNewPass';
-
 CREATE TABLE garf_solutions.mensajes(
 id INT AUTO_INCREMENT, 
 nombre VARCHAR(40) NOT NULL,
@@ -15,7 +13,7 @@ username VARCHAR(20) NOT NULL,
 password VARCHAR(80) NOT NULL, 
 PRIMARY KEY(username)
 );
-INSERT INTO users VALUES('GeraldRF','$2y$10$xhCJpEf3PNgtcmQT17EAd.CpuLfe4C5qwD9BAydB5YAtquwWKqqqC')
+INSERT INTO users VALUES('GeraldRF','kmi949199jkfmnmajsndcajsncjascjieiewill')
 
 -- Crear mensajes
 DELIMITER //

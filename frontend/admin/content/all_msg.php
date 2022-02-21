@@ -16,8 +16,8 @@ if (isset($mensajes)) {
                 <div class="datos_mensaje">
                     <div class="datos">
                         <h2 class="titleof">Contacto:</h2>
-                        <h6 class="dato"><?php echo $row["num_telefonico"] ?></h6>
-                        <h6 class="dato"><?php echo $row["email"] ?></h6>
+                        <a href="https://wa.me/<?php echo  $row["num_telefonico"] ?>" class="dato"><?php echo $row["num_telefonico"] ?></a>
+                        <a href="<?php echo "<script>mailto(".$row["email"].")</script>" ?>" class="dato"><?php echo $row["email"] ?></a>
                     </div>
                     <div>
                         <div class="mensaje">
@@ -39,7 +39,7 @@ if (isset($mensajes)) {
 
 <?php
 } else {
-    echo "<h5>No hay mensajes</h5>";
+    echo "<h5 style='margin-top:20px;'>No hay mensajes</h5>";
 }
 
 ?>
